@@ -1,4 +1,5 @@
 @import 'assets/fonts/Montserrat/style.css';
+@import 'assets/fonts/Futura/style.css';
 @import './responsive';
 
 * {
@@ -14,6 +15,7 @@ html {
 }
 body {
   font-family: 'Montserrat';
+  font-weight: 500;
 }
 a {
   text-decoration: none;

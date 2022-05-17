@@ -28,16 +28,8 @@ const Sidebar = () => {
         </div>
       </div>
       <Item path="3" name="Slots" />
-      <Item path="4" name="Live Casio" />
-      <div className="item promotion">
-        <div className="wrapper">
-          <img
-            src={require('assets/img/sidebar/menu-icon5.png')}
-            alt="error png"
-          />
-          <span>Promotions</span>
-        </div>
-      </div>
+      <Item path="4" name="Live Casino" />
+      <Item path="5" name="Promotions" cClass=" promotion" />
       <div className="item2">
         <div className="child">
           <img
@@ -100,27 +92,49 @@ const Sidebar = () => {
         </div>
       </div>
       <Item path="6" name="Lottery" />
-      <div className="line"></div>
       <Item path="7" name="Affiliate" />
-      <div className="item vipclub">
-        <div className="wrapper">
-          <img
-            src={require('assets/img/sidebar/menu-icon5.png')}
-            alt="error png"
-          />
-          <span>VIP Club</span>
+      <Item path="8" name="VIP Club" cClass=" vipclub" />
+      <Item path="9" name="Forum" />
+      <Item path="10" name="Provably Fair" />
+      <div className="line"></div>
+      <Item path="11" name="Favorite Games" />
+      <Item path="12" name="Recent Play" cClass=" recentplay" />
+      <div className="language">
+        <span>Language Options</span>
+        <div className="select">
+          <span>English</span>
+          <span>
+            <Icons.AngleRight height={'16'} />
+          </span>
+        </div>
+        <div className="theme">
+          <div className="left">
+            <div className="item active">
+              <Icons.Star height={'20'} />
+            </div>
+            <div className="item">
+              <Icons.Star height={'20'} />
+            </div>
+          </div>
+          <div className="right">
+            <div className="title">Darkmode</div>
+            <div className="state">Currently</div>
+          </div>
         </div>
       </div>
-      <Item path="9" name="Forum" />
-      <Item path="10" name="Probly Fair" />
-      <Item path="11" name="Favorite Game" />
-      <Item path="12" name="Recent Play" />
-      <div className="line"></div>
+      <div className="live">
+        <div className="wrapper">
+          <div className="icon">
+            <Icons.Star height={'20'} />
+          </div>
+          <span>Live Support</span>
+        </div>
+      </div>
     </div>
   )
 }
-const Item = ({ name, path }) => (
-  <div className="item">
+const Item = ({ name, path, cClass = '' }) => (
+  <div className={`item${cClass}`}>
     <div className="wrapper">
       <img
         src={require(`assets/img/sidebar/menu-icon${path}.png`)}

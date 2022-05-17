@@ -13,7 +13,7 @@ const Header = () => {
         </a>
         <a className="item">
           <Icons.Star height={'25'} />
-          Casino
+          Sports
         </a>
       </div>
       <div className="right">
