@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Homepage from 'feature/Home'
+import Homepage from 'feature/home'
 
 const Router = () => {
   return (

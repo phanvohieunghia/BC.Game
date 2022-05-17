@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './style.scss'
-import Sidebar from 'components/common/Sidebar'
-import Header from 'components/common/Header'
+import Sidebar from 'components/common/sidebar'
+import Header from 'components/common/header'
 
 const Home = () => {
   return (

@@ -100,9 +100,21 @@
         background-color: rgba(23, 24, 27, 0.6);
         border-radius: 20px;
       }
-      &::after {
-        content: '';
+      .wrapper {
         position: absolute;
+        top: -5px;
+        right: -5px;
+        background-color: rgba(49, 52, 60, 0.5);
+        border-radius: 11px;
+        padding: 2px;
+        width: 22px;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          fill: rgba(153, 164, 176, 0.5);
+        }
       }
     }
     .tag {

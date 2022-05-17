@@ -61,12 +61,18 @@ const Sidebar = () => {
           />
         </div>
         <div className="child locked">
+          <div className="wrapper">
+            <Icons.Lock height={'12'} width={'12'} />
+          </div>
           <img
             src={require('assets/img/sidebar/menu-icon13-3.png')}
             alt="error png"
           />
         </div>
-        <div className="child">
+        <div className="child locked">
+          <div className="wrapper">
+            <Icons.Lock height={'12'} width={'12'} />
+          </div>
           <img
             src={require('assets/img/sidebar/menu-icon13-4.png')}
             alt="error png"
