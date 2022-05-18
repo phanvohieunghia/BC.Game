@@ -1,7 +1,7 @@
-@import 'assets/scss/mixin';
+@import 'assets/scss/valuable';
 
-.App {
-  margin-left: 240px;
+.app {
+  margin-left: $main-left;
   margin-top: 6.4rem;
-  position: fixed;
+  width: calc(100% - $main-left);
 }

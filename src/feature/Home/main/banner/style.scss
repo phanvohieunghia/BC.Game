@@ -1,0 +1,21 @@
+@import 'assets/scss/mixin';
+
+.banner {
+  padding-top: 24px;
+  .item {
+    @include flex;
+    > a {
+      flex: 1 1 0%;
+      margin-left: 6px;
+      margin-right: 6px;
+      img {
+        border-radius: 20px;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .half {
+      flex: 2 1 0%;
+    }
+  }
+}

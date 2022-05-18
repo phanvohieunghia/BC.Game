@@ -15,6 +15,9 @@ const Header = () => {
           <Icons.Star height={'25'} />
           Sports
         </a>
+        <button>
+          <Icons.Bars height={'10'} width={'10'} />
+        </button>
       </div>
       <div className="right">
         <div className="left">
