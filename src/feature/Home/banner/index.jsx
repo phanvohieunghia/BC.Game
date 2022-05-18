@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './style.scss'
-import Slider from 'components/common/slider'
+import Slider from 'components/slider'
 import { SwiperSlide } from 'swiper/react'
 
 const Banner = () => {

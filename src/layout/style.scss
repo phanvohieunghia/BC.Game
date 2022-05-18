@@ -1,0 +1,7 @@
+@import 'assets/scss/valuable';
+
+.app {
+  margin-left: $main-left;
+  margin-top: 6.4rem;
+  width: calc(100% - $main-left);
+}

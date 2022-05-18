@@ -1,17 +1,13 @@
 import React from 'react'
 
 import './style.scss'
-import Sidebar from './sidebar'
-import Header from './header'
-import Main from './main'
+import Banner from './banner'
 
 const Home = () => {
   return (
-    <>
-      <Header />
-      <Sidebar />
-      <Main />
-    </>
+    <div className="home">
+      <Banner />
+    </div>
   )
 }
 
