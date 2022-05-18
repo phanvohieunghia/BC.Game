@@ -243,6 +243,9 @@
             rgba(85, 89, 102, 0.4) 45%,
             rgba(85, 89, 102, 0.4)
           );
+          svg {
+            fill: $white-color;
+          }
         }
       }
       .right {
@@ -280,6 +283,25 @@
         margin-left: 8px;
         font-size: 1.4rem;
         color: $white-color;
+      }
+    }
+  }
+  .socialmedia {
+    margin: 0 30px 64px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    span {
+      font-size: 1.2rem;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      .item {
+        margin-top: 16px;
+        margin-right: 20px;
+        a {
+          width: 24px;
+        }
       }
     }
   }

@@ -130,6 +130,51 @@ const Sidebar = () => {
           <span>Live Support</span>
         </div>
       </div>
+      <div className="socialmedia">
+        <span className="title">Social Media</span>
+        <div className="content">
+          <div className="item">
+            <a>
+              <Icons.Telegram height={'20'} />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <Icons.Medium height={'20'} />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <Icons.Github height={'20'} width={'20'} />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <Icons.Twitter height={'20'} width={'20'} />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <Icons.Facebook height={'20'} width={'20'} />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <Icons.Discord height={'20'} width={'20'} />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <Icons.Instagram height={'20'} />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <Icons.BTC height={'20'} width={'20'} />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
